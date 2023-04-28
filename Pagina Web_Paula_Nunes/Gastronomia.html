@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilounico.css">
+    <link rel="shortcut icon" href="imagen/faviconpw.ico" type="image/x-icon">  
+    <title>Gastronomia</title>
+</head>
+<body>
+    <header> 
+        <a id="logo"><h3>Mejor Viaje</h3></a>
+    </header>
+    <nav>
+        <ul type="none">
+        <li><a href="Index.html" target="_blank">Home</a></li>
+        <li id="fondo"><a href="Gastronomia.html" target="_blank">Gastronomia</a></li>
+        <li><a href="Paseo.html" target="_blank">Paseo</a></li>
+        <li><a href="Habitacion.html" target="_blank">Habitación</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="norte">
+            <article class="fn">
+                <img src="imagen/norte.jpg" alt="">
+            </article>
+            <article class="tn">
+                <h2>Región Norte</h2>
+                <p>Los expertos destacan los sabores amazónicos dentro de la 
+                   composición nutricional. Conocida por su influencia indígena
+                   y la gran presencia de pescado, açaí, frutas regionales y 
+                   derivados de la yuca, la cocina norteña reúne todos los 
+                   nutrientes necesarios para satisfacer las necesidades diarias.
+                </p>
+            </article>
+        </section>
+        <section id="nordeste">
+            <article class="fn">
+                <img src="imagen/nordeste.jpg" alt="">
+            </article>
+            <article class="tn">
+                <h2>Región Nordeste</h2>
+                <p>La cocina nordestina estuvo directamente influenciada por factores
+                   socioeconómicos de la región. Los platos tienen características de
+                   la cocina portuguesa, conocida durante el período colonial; la cultura 
+                   africana, absorbida durante el período de la esclavitud; y comida indígena,
+                   patrimonio de la población originaria.
+                </p>
+            </article>
+        </section>
+        <section id="centro">
+            <article class="fn">
+                <img src="imagen/centro.jpg" alt="">
+            </article>
+            <article class="tn">
+                <h2>Región Centro-Oeste</h2>
+                <p>Algunos de los principales platos típicos de la región del 
+                   Medio Oeste son: arroz con pequi, tutú con chorizo, guariroba,
+                   mojica, pacú asado, pescado a la teja, pescado con plátano, 
+                   carne con plátano, costillas, tortas de arroz, pamonha, frijoles
+                   tropeiro, carne seca, tocino, sopa paraguaya y caldo de piraña.
+                </p>
+            </article>
+        </section>
+        <section id="sudeste">
+            <article class="fn">
+                <img src="imagen/sudeste.jpg" alt="">
+            </article>
+            <article class="tn">
+                <h2>Región Sudeste</h2>
+                <p>La cocina de São Paulo proviene de los bandeirantes, que tenían una
+                   dieta abundante, compuesta por frijoles, maíz, mandioca, además de
+                   arroz, carne de cerdo y huevos. La Región Sudeste está formada por
+                   los estados de São Paulo, Minas Gerais, Rio de Janeiro y Espírito 
+                   Santo, con marcadas diferencias en la cocina de cada estado.
+                </p>
+            </article>
+        </section>
+        <section id="sul">
+            <article class="fn">
+                <img src="imagen/sul.jpg" alt="">
+            </article>
+            <article class="tn">
+                <h2>Región Sul</h2>
+                <p>El sur de Brasil fue colonizado por portugueses, españoles e italianos, 
+                    lo que resultó en una cocina rica en diversidad. Además de estas influencias,
+                     la cocina sureña también se vio afectada por indios y africanos.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section id="redes">
+            <nav id="menu-abajo">
+                <ul type="none">
+                <li><a href="https://www.facebook.com/profile.php?id=100089212420718" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/mejorviaje12/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.pinterest.es/" target="_blank">Pinterest</a></li>
+                <li><a href="https://twitter.com/home" target="_blank">Twitter</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="sobre">
+            <p>Fale conosco</p>
+        </section>
+        <section id="formulario">
+            <article>
+                <img src="imagen/mulher1.jpg" alt="">
+                <a href="#logo"><h4 id="volver">Volver arriba</h4></a>
+            </article>
+            <article id="form">
+                <form action="Enviado.html" method="post" enctype="text/plain">
+                    <fieldset id="bor">
+                        <legend>Formulario</legend>
+                        <label for="inombre">Nombre:</label><br>
+                            <input type="text" name="Nombre" id="inombre" required minlength="5" maxlength="30" placeholder="Nombre y Apellido"><br>
+                        <label for="iemail">Email:</label><br>
+                            <input type="text" id="iemail" placeholder="ejemplo.correo@gmail.es"><br>
+                        <label for="icontraseña">Contaseña:</label><br>
+                            <input type="password" name="password" id="icontraseña" required maxlength="8" placeholder="maximo 8 caracteres"><br>
+                        <label for="idata">Fecha</label><br>
+                            <input type="date" name="Fecha" id="idata"><br>
+                        <label for="iobservaciones">Observaciones:</label><br>
+                            <textarea name="observaciones" cols="21" rows="2" id="iobservaciones"></textarea><br>
+                        <input type="submit" name="Enviar" value="Enviar">
+                        <input type="reset" name="Restablecer" value="Restablecer">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </footer>
+    
+</body>
+</html>
